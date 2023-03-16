@@ -48,6 +48,8 @@ The list of plugins:
     — increase or decrease heading depth
 *   🟢 [`remark-breaks`](https://github.com/remarkjs/remark-breaks)
     – hard breaks w/o needing spaces (like on issues)
+*   🟢 [`remark-caml`](https://github.com/wikibonsai/remark-caml)
+    – `:colon-attribute::markup-language` (with [[[wikilinks]]](https://github.com/wikibonsai/remark-wikirefs) support!)
 *   🟢 [`remark-capitalize`](https://github.com/zeit/remark-capitalize)
     – transform all titles w/ [`title.sh`](https://github.com/zeit/title)
 *   🟢 [`remark-capitalize-headings`](https://github.com/Xunnamius/unified-utils/blob/main/packages/remark-capitalize-headings)
@@ -306,6 +308,8 @@ The list of plugins:
     — compile markdown to [VDOM](https://github.com/Matt-Esch/virtual-dom/)
 *   🟢 [`remark-wiki-link`](https://github.com/landakram/remark-wiki-link)
     — new syntax for wiki links (rehype compatible)
+*   🟢 [`remark-wikirefs`](https://github.com/wikibonsai/remark-wikirefs)
+    — extended wiki syntax with `:attribute::[[links]]`, `[[wikilinks]]`, and `![[embeds]]` ([caml](https://github.com/wikibonsai/remark-caml) and rehype compatible)
 *   🟢 [`remark-yaml-config`](https://github.com/remarkjs/remark-yaml-config)
     — configure remark w/ YAML
 *   🟢 [`remark-code-title`](https://github.com/kevinzunigacuellar/remark-code-title)
